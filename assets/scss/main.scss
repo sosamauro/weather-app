@@ -13,7 +13,6 @@ body {
   align-items: center;
   height: 100vh;
   background: $bg-color;
-  line-height: 1.5;
 }
 
 .card {
@@ -61,21 +60,51 @@ button {
   width: 100%;
 }
 
-.description-container {
+.container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
 }
 
 .description {
   text-transform: capitalize;
-}
-
-.city {
-  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
   font-size: 1.3rem;
 }
 
 .temp {
-  margin-top: 0.5rem;
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.icon {
+  font-size: 7rem;
+}
+
+.city__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.city {
+  font-weight: 500;
+}
+
+.location-icon {
+  margin-right: 0.3rem;
+  fill: white;
+  height: 0.9rem;
+  width: 0.9rem;
+}
+
+.wind {
+  margin-top: 0.3rem;
 }

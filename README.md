@@ -2,11 +2,11 @@
 
 ### Description
 
-Hi! This is a simple weather app made with the API of OpenWeather
+Hi! This is a simple weather app made with the API of OpenWeather.
 
 Users should be able to:
 
-- Search the weather of any city.
+- Search the actual weather of any city.
 - See the temperature, a description, humidity and wind speed.
 
 ### Live Demo
